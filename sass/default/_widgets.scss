@@ -1,0 +1,36 @@
+/* =Footer Widget */
+.footer-widget {
+	margin: 1.75em 0 0;
+	padding: 1.75em 0 0;
+}
+
+.footer-widget .widget-area {
+	width: 100%;
+	margin: 0 auto 3.5em;
+}
+
+.widget,
+.widget_twitter ul li,
+.widget_rss ul li {
+	margin: 0 0 4em;
+}
+
+/* Search widget */
+.widget_search .submit,
+.original_of_widget .submit {
+	display: none;
+}
+
+.widget_rss .rss-date,
+.widget_rss li > cite,
+.widget_twitter .timesince {
+	color: #b3b3b1;
+	display: block;
+	font-size: 12px;
+}
+
+.sloc_weather_widget {
+	.svg-icon {
+		float:left;
+	}
+}
